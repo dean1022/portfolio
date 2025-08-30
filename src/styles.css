@@ -13,6 +13,10 @@
   .navbar-brand {
     margin-left: 10px !important;
   }
+
+  #navbarNav {
+    margin-left: 10px !important;
+  }
 }
 
 #contactBtn {
@@ -76,4 +80,8 @@ footer {
 footer a {
   text-decoration: none;
   color: white;
+}
+
+h5 {
+  font-weight: bold;
 }
