@@ -29,11 +29,27 @@
         border-radius: 15px;
       }
 
+      img {
+        border-radius: 8px;
+      }
+
+      #more {
+        color: grey !important;
+      }
+
+      #more a:hover {
+        color: black !important;
+      }
+
       @media (max-width: 576px) {
         #keyboard {
           padding-right: 0px;
           border-radius: 5px;
         }
+      }
+
+      .pop-off:hover {
+        transform: scale(1.05);
       }
     </style>
   </head>
@@ -91,8 +107,131 @@
       </a>
 
       <h5>About Me</h5>
-      <p>From hardware to coding...</p>
+      <p>
+        <a href="about.html">From hardware to coding... ></a>
+      </p>
       <img src="images/keyboard.jpg" alt="keyboard" id="keyboard" />
+
+      <h5>Personal Projects</h5>
+      <div
+        class="row d-flex justify-content-evenly"
+        style="gap: 20px; margin: 20px; font-weight: bold"
+      >
+        <div class="project1 col-sm-3" style="text-align: center">
+          <a href="projects.html#project1"
+            ><img
+              src="images/weather-app.png"
+              alt="project 1"
+              class="pop-off img-fluid"
+            />
+            <p>Weather App</p>
+          </a>
+        </div>
+        <div class="project2 col-sm-3" style="text-align: center">
+          <a href="projects.html#project2"
+            ><img
+              src="images/world-clock.png"
+              alt="project 2"
+              class="pop-off img-fluid"
+            />
+            <p>World Clock</p>
+          </a>
+        </div>
+        <div class="project3 col-sm-3" style="text-align: center">
+          <a href="projects.html#project3"
+            ><img
+              src="images/poem-generator.png"
+              alt="project 3"
+              class="pop-off img-fluid"
+            />
+            <p>Poem Generator</p>
+          </a>
+        </div>
+      </div>
+
+      <div
+        class="row d-flex justify-content-evenly"
+        style="gap: 10px; margin-bottom: 50px"
+      >
+        <div class="experiences col-sm-6" style="text-align: left">
+          <h5>Experience</h5>
+          <br />
+          <div class="row experience1" style="font-weight: smaller">
+            <div class="placePosition col-9">
+              <p style="font-weight: bold">Eeshani Guest Inn</p>
+              <p>Junior Developer</p>
+              <p>Junior Automation Support</p>
+              <p>IT Support</p>
+            </div>
+            <div class="date col-3">2016-2024</div>
+          </div>
+          <div class="row experience2">
+            <div class="placePosition col-9">
+              <p style="font-weight: bold">SAP Canada</p>
+              <p>Junior Programmer</p>
+            </div>
+            <div class="date col-3">2018-2019</div>
+          </div>
+        </div>
+        <div class="col-sm-5" style="text-align: center">
+          <img
+            src="images/team.jpg"
+            alt=""
+            class="img-fluid"
+            style="width: 150px; height: auto; margin-top: 80px"
+          />
+        </div>
+      </div>
+
+      <h5>Work Projects</h5>
+      <div
+        class="row d-flex justify-content-evenly"
+        style="gap: 20px; margin: 20px; font-weight: bold"
+      >
+        <div class="project1 col-sm-3" style="text-align: center">
+          <a href="projects.html#workProject1"
+            ><img
+              src="images/email.jpg"
+              alt="project 1"
+              class="pop-off img-fluid"
+            />
+            <p>AI Powered Email System</p>
+          </a>
+        </div>
+        <div class="project2 col-sm-3" style="text-align: center">
+          <a href="projects.html#workProject2"
+            ><img
+              src="images/rc-car.jpg"
+              alt="project 2"
+              class="pop-off img-fluid"
+            />
+            <p>RC Car Web Controller</p>
+          </a>
+        </div>
+        <div class="project3 col-sm-3" style="text-align: center">
+          <a href="projects.html#workProject3"
+            ><img
+              src="images/foosball.jpg"
+              alt="project 3"
+              class="pop-off img-fluid"
+            />
+            <p>Foosball Scoring System</p>
+          </a>
+        </div>
+      </div>
+      <div style="text-align: center" class="contact">
+        <h5>Skills</h5>
+        <br />
+        <p>Technical Support & Systems</p>
+        <p>Full Stack Development</p>
+        <a href="about.html#skills">...more</a>
+        <br />
+        <h5>Certifications</h5>
+        <br />
+        <p>IT Support</p>
+        <p>Web Development</p>
+        <a href="about.html#skills">...more</a>
+      </div>
     </div>
 
     <footer style="color: white">

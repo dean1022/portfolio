@@ -84,4 +84,14 @@ footer a {
 
 h5 {
   font-weight: bold;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: grey;
 }
