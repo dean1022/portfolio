@@ -7,7 +7,7 @@
 
 @media (max-width: 576px) {
   .content {
-    margin: 20px 20px !important;
+    margin: 20px 20px 20px 20px !important;
   }
 
   .navbar-brand {
@@ -32,7 +32,7 @@ h1 {
 }
 
 .content {
-  margin: 50px 42px;
+  margin: 50px 52px 50px 42px;
 }
 
 .navbar-brand {
