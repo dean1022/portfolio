@@ -92,6 +92,11 @@ a {
   color: black;
 }
 
-a:hover{
+a:hover {
   color: grey;
+}
+
+#logo {
+  width: 40px;
+  margin-right: 5px;
 }
